@@ -52,6 +52,7 @@ npm list -g --depth 0
 cd ...vue-state
 vue create .
 
+> Manually select features
 selected features (all except Typescript)
 - Babel
 - Progressive Web App (PWA) Support
@@ -62,4 +63,5 @@ selected features (all except Typescript)
 - Unit Testing [Jest]
 - E2E Testing [Cypress]
 - config [In dedicated config files]
+> version of Vue.js : 3.x
 ```
