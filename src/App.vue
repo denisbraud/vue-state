@@ -2,9 +2,10 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-    <br/>
+    <br />
     <router-link to="/counter/nostate">Counter NoState</router-link> |
     <router-link to="/counter/store" title="VueX">Counter Store ({{ count }})</router-link> |
+    <router-link to="/counter/overmind">Counter Overmind ({{ ocount() }})</router-link> |
   </div>
   <router-view />
 </template>
@@ -16,6 +17,11 @@ export default {
     count() {
       return this.$store.state.count;
     },
+  },
+  methods: {
+    ocount() {
+      return this.state.count;
+    }
   },
 };
 </script>

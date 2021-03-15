@@ -19,6 +19,11 @@ npm run test:unit # Run your unit tests
 ### Counter.Store
 [VueX](https://next.vuex.vuejs.org/)
 
+### Counter.Overmind
+[Overmind](https://overmindjs.org/views/vue#plugin)
+
+[Replacing Vuex with Overmind](https://overmindjs.org/videos-1#replacing-vuex-with-overmind)
+
 ## Dev env setup
 
 ### Install Basic tools
