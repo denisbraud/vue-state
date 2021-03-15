@@ -16,6 +16,9 @@ npm run test:unit # Run your unit tests
 
 ### Counter.NoState
 
+### Counter.Store
+[VueX](https://next.vuex.vuejs.org/)
+
 ## Dev env setup
 
 ### Install Basic tools

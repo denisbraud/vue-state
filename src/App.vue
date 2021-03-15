@@ -4,9 +4,21 @@
     <router-link to="/about">About</router-link>
     <br/>
     <router-link to="/counter/nostate">Counter NoState</router-link> |
+    <router-link to="/counter/store" title="VueX">Counter Store ({{ count }})</router-link> |
   </div>
   <router-view />
 </template>
+
+<script>
+export default {
+  name: "App",
+  computed: {
+    count() {
+      return this.$store.state.count;
+    },
+  },
+};
+</script>
 
 <style lang="scss">
 #app {

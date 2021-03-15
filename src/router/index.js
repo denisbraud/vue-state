@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import CounterNoState from '../views/counter/NoState.vue'
+import CounterStore from '../views/counter/Store.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/counter/nostate',
     name: 'CounterNoState',
     component: CounterNoState
+  },
+  {
+    path: '/counter/store',
+    name: 'CounterStore',
+    component: CounterStore
   },
 ]
 
