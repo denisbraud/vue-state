@@ -12,6 +12,10 @@ npm run test:e2e # Run your end-to-end tests
 npm run test:unit # Run your unit tests
 ```
 
+## Pages
+
+### Counter.NoState
+
 ## Dev env setup
 
 ### Install Basic tools
